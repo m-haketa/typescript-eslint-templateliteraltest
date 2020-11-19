@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "commonjs",
+        "target": "esnext",
+        "declaration": true,
+        "strict": true,
+        "baseUrl": ".",
+        "types": ["node"],
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["esnext"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "paths": {
+            "*": ["@types/*"]
+        },
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true
+    },
+    "include": ["./src/**/*","./@types/**/*"]
+}
